@@ -1,0 +1,37 @@
+/* General styles for all devices */
+body {background-color:#212b6e;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Styles for tablets (e.g., iPads) */
+@media (min-width: 820px) and (max-width: 1368px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* General styles for all devices */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Styles for phones*/
+@media (min-width: 370px) and (max-width: 935px) {
+    .container {
+        width: 80%;
+    }
+}
